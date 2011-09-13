@@ -98,11 +98,12 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/reset.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/960.css">
 
-
-	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<!-- CSS: Flex Slider addition -->
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/inc/js/flexslider.css">
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 <script type="text/javascript" src="http://www.google.com/jsapi"></script><script type="text/javascript">google.load("jquery", "1");</script>
-
+	<
+	<script src="<?php bloginfo('template_directory'); ?>/_/js/FlexSlider/jquery.flexslider-min.js"></script>
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.backstretch.min.js"></script>
 
 
