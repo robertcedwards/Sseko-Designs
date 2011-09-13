@@ -100,6 +100,7 @@
 
 	<!-- CSS: Flex Slider addition -->
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/inc/js/flexslider.css">
+
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 <script type="text/javascript" src="http://www.google.com/jsapi"></script><script type="text/javascript">google.load("jquery", "1");</script>
 	<
@@ -121,6 +122,8 @@
 		<header>
 			<div id="logo" class="grid_3"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"/></a></div>
 			<div id="description" class="grid_5"><span style="display:none;">Every Sandal has a story</span><img src="<?php bloginfo('template_directory'); ?>/images/description.png"/></div>
+		 	<div id="social" class="span12 columns"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?></div>
+
 		 	<div class="grid_1"></div>
 			<div class="grid_3"></div>
 		   <div class="clear"></div> 
